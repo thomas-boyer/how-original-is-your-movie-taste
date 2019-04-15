@@ -147,7 +147,7 @@ class App extends Component {
 			}
 		}
 
-		let totalScore = ((0.4 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) + 
+		let totalScore = ((0.6 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) + 
 			(0.6 * recommendationsScore)) / idArray.length;
 		
 		let returnedScore;

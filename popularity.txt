@@ -1,0 +1,1046 @@
+Movie popularity 21.3+: 10 unoriginality points
+Movie popularity 16.6-21.2: 9 unoriginality points
+Movie popularity 13.35-16.6: 8 unoriginality points
+Movie popularity 11.75-13.35: 7 unoriginality points
+Movie popularity 10.1-11.75: 6 unoriginality points
+Movie popularity 8.9-10.1: 5 unoriginality points
+Movie popularity 7.85-8.9: 4 unoriginality points
+Movie popularity 7.05-7.85: 3 unoriginality points
+Movie popularity 6.35-7.05: 2 unoriginality points
+Movie popularity 5.85-6.35: 1 unoriginality point
+Movie popularity 0-5.85: 0 unoriginality points
+
+//Note that, while the maximum index stated in the documentation is theoretically 20,000, the API would
+not return results beyond 19,761.
+
+//Start of POPULARITY: 10 subsection//
+
+1: Shazam! (2019-03-23): 457.534
+21: The Mule (2018-12-14): 83.855
+41: The Avengers (2012-04-25): 55.669
+61: Jurassic World: Fallen Kingdom (2018-06-06): 43.447
+81: Captive State (2019-03-15): 38.105
+101: Re: Zero kara Hajimeru Isekai Seikatsu - Memory Snow (2018-10-06): 34.41
+121: Twilight (2008-11-20): 31.331
+141: The Equalizer 2 (2018-07-19): 29.748
+161: Harry Potter and the Goblet of Fire (2005-11-16): 28.378
+181: The Incredible Hulk (2008-06-12): 26.815
+201: Beauty and the Beast (2017-03-16): 25.871
+221: Toy Story (1995-10-30): 24.848
+241: 2001: A Space Odyssey (1968-04-09): 23.987
+261: Pirates of the Caribbean: On Stranger Tides (2011-05-14): 23.234
+281: Night School (2018-09-27): 22.683
+301: Man of Steel (2013-06-12): 22.202
+321: Blockers (2018-03-14): 21.636
+341: Hulk (2003-06-19): 21.301
+
+//End of POPULARITY: 10 subsection//
+//Start of POPULARITY: 9 subsection//
+
+361: Playing with Love (1977-05-17): 20.899
+381: Hotel Desire (2011-12-07): 20.408
+401: Pixels (2015-07-16): 20.116
+421: Ice Age (2002-03-10): 19.789
+441: Paul, Apostle of Christ (2018-03-23): 19.435
+461: The Hitman's Bodyguard (2017-08-16): 19.135
+481: Desire (2011-09-14): 18.875
+501: Thunderball (1965-12-15): 18.591
+521: Call Me by Your Name (2017-09-01): 18.337
+541: Tangled (2010-02-03): 18.092
+561: The Sixth Sense (1999-08-06): 17.843
+581: The Polar Express (2004-11-10): 17.587
+601: Beauty and the Beast (1991-11-13): 17.325
+621: Kung Fu League (2018-10-19): 17.117
+641: Superman Returns (2006-06-28): 16.885
+661: Ouija (2014-10-24): 16.746
+681: The Princess Switch (2018-11-16): 16.617
+
+//End of POPULARITY: 9 subsection//
+//Start of POPULARITY: 8 subsection//
+
+701: The Italian Job (2003-05-30): 16.461
+721: The House with a Clock in Its Walls (2018-09-15): 16.301
+741: Peter Pan (1953-02-05): 16.146
+761: White Fang (2018-03-28): 16.014
+781: The Transporter (2002-10-02): 15.868
+801: The Croods (2013-03-20): 15.724
+821: Don Jon (2013-07-26): 15.636
+841: For Your Eyes Only (1981-06-23): 15.544
+861: Private Lessons (1981-08-21): 15.372
+881: Donnie Darko (2001-01-18): 15.267
+901: Oblivion (2013-04-10): 15.127
+921: Public Enemies (2009-07-01): 15.034
+941: Barbie as The Princess & the Pauper (2004-09-28): 14.941
+961: Idhu Namma Aalu (2016-05-27): 14.845
+981: Where Eagles Dare (1968-12-04): 14.741
+1001: Pride & Prejudice (2005-09-16): 14.656
+1021: Happy as Lazzaro (2018-05-31): 14.587
+1041: Ted (2012-06-29): 14.517
+1061: Renegades (2017-08-21): 14.455
+1081: Gerald's Game (2017-09-19): 14.363
+1101: Cinema Paradiso (1988-11-17): 14.286
+1121: 2036 Origin Unknown (2018-06-08): 14.225
+1141: Dinosaur (2000-05-19): 14.126
+1161: Everest (2015-09-10): 14.059
+1181: A Haunted House 2 (2014-04-17): 14.001
+1201: The Messenger: The Story of Joan of Arc (1999-10-27): 13.917
+1221: Mia and the White Lion (2018-12-26): 13.853
+1241: Three Wishes for Cinderella (1973-11-16): 13.786
+1261: Frontera (2014-07-31): 13.714
+1281: Operation Finale (2018-08-29): 13.658
+1301: I Can Only Imagine (2018-03-08): 13.575
+1321: Unstoppable (2010-11-04): 13.494
+1341: The Guernsey Literary & Potato Peel Pie Society (2018-04-19): 13.412
+1361: Gran Torino (2008-12-09): 13.352
+
+//End of POPULARITY: 8 subsection//
+//Start of POPULARITY: 7 subsection//
+
+1381: The Night Comes for Us (2018-10-05): 13.303
+1401: The Next Three Days (2010-11-18): 13.252
+1421: Annabelle (2014-10-02): 13.19
+1441: Child 44 (2015-03-15): 13.115
+1461: The Vow (2012-02-05): 13.061
+1481: Homefront (2013-11-27): 13.012
+1501: 101 Dalmatians (1996-11-17): 12.96
+1521: Dragon Ball Z: Broly – Second Coming (1994-03-12): 12.888
+1541: Argo (2012-10-11): 12.836
+1561: Woody Woodpecker (2017-10-05): 12.805
+1581: Apostle (2018-09-21): 12.761
+1601: The Dukes of Hazzard (2005-08-05): 12.7
+1621: Dogtooth (2009-06-01): 12.64
+1641: Brooklyn's Finest (2009-01-16): 12.575
+1661: The Iron Giant (1999-08-06): 12.533
+1681: The Colony (2013-04-12): 12.468
+1701: Hysteria (2011-06-06): 12.411
+1721: Brazil (1985-02-20): 12.373
+1741: Inside Man (2006-03-23): 12.337
+1761: The Taking of Pelham 1 2 3 (2009-06-11): 12.283
+1781: Elle (2016-05-25): 12.227
+1801: Twister (1996-05-10): 12.184
+1821: Easy A (2010-09-16): 12.125
+1841: Vegas Vacation (1997-02-13): 12.079
+1861: Final Destination 2 (2003-01-31): 12.029
+1881: Kiss the Girls (1997-10-03): 11.985
+1901: The Untouchables (1987-06-03): 11.94
+1921: Precious Cargo (2016-07-15): 11.896
+1941: The Illusionist (2006-08-18): 11.848
+1961: Left Behind (2014-10-03): 11.797
+1981: 13 Going on 30 (2004-04-13): 11.759
+
+//End of POPULARITY: 7 subsection//
+//Start of POPULARITY: 6 subsection//
+
+2001: Raw (2016-11-11): 11.717
+2021: Don't Look Now: We're Being Shot At (1966-12-07): 11.676
+2041: Lone Survivor (2013-12-24): 11.634
+2061: The Descendants (2011-09-09): 11.59
+2081: Destination Wedding (2018-08-02): 11.562
+2101: Superman III (1983-06-17): 11.513
+2121: The Lobster (2015-07-10): 11.492
+2141: The Lone Ranger (2013-07-03): 11.433
+2161: Dances with Wolves (1990-11-09): 11.4
+2181: The Boondock Saints (1999-01-22): 11.356
+2201: A Conspiracy of Faith (2016-03-03): 11.324
+2221: Four Rooms (1995-12-09): 11.27
+2241: Tremors 5: Bloodlines (2015-10-06): 11.236
+2261: See No Evil, Hear No Evil (1989-05-12): 11.2
+2281: Absolute Power (1997-02-14): 11.163
+2301: Starsky & Hutch (2004-03-05): 11.127
+2321: Atlantis: Milo's Return (2003-02-25): 11.09
+2341: Season of the Witch (2011-01-07): 11.062
+2361: Hearts Beat Loud (2018-06-08): 11.028
+2381: Eat Pray Love (2010-08-12): 10.996
+2401: The Green Inferno (2014-09-04): 10.962
+2421: Blended (2014-05-21): 10.94
+2441: The Boss (2016-04-07): 10.907
+2461: Senna (2010-10-07): 10.884
+2481: As Above, So Below (2014-08-14): 10.856
+2501: Friday the 13th Part 2 (1981-05-01): 10.821
+2521: Teenage Mutant Ninja Turtles III (1993-03-17): 10.783
+2541: Pain & Gain (2013-04-18): 10.748
+2561: The Scorpion King: Quest for Power (2015-01-09): 10.728
+2581: Barely Lethal (2015-04-30): 10.699
+2601: Barton Fink (1991-08-01): 10.664
+2621: I Spit on Your Grave (2010-06-17): 10.622
+2641: Underworld: Evolution (2006-01-12): 10.589
+2661: A Perfect World (1993-11-24): 10.552
+2681: Collateral Beauty (2016-12-06): 10.528
+2701: Snakes on a Plane (2006-08-06): 10.502
+2721: Halloween II (2009-08-28): 10.467
+2741: Jamon Jamon (1992-09-03): 10.44
+2761: RED 2 (2013-07-18): 10.423
+2781: 12 Feet Deep (2017-06-20): 10.399
+2801: The Sons of Katie Elder (1965-06-23): 10.368
+2821: Three Kings (1999-09-27): 10.338
+2841: Hard Rain (1998-01-16): 10.303
+2861: Catwoman (2004-07-22): 10.278
+2881: The Man in the Iron Mask (1998-03-12): 10.245
+2901: Cowboy Bebop: The Movie (2001-09-01): 10.224
+2921: Green Street Hooligans (2005-09-09): 10.199
+2941: Gundala (2019-04-07): 10.177
+2961: Attraction (2017-01-26): 10.145
+2981: A Grand Day Out (1990-05-18): 10.109
+
+//End of POPULARITY: 6 subsection//
+//Start of POPULARITY: 5 subsection//
+
+3001: Black Butterfly (2017-05-26): 10.087
+3021: The Professional (1981-10-21): 10.064
+3041: When the Game Stands Tall (2014-08-22): 10.036
+3061: The Art of the Steal (2013-09-11): 10.015
+3081: Perfect Blue (1997-07-25): 9.986
+3101: Patriot Games (1992-06-04): 9.959
+3121: Kidnapping Mr. Heineken (2015-03-12): 9.932
+3141: 3 Days to Kill (2014-02-14): 9.907
+3161: Elizabeth Harvest (2018-08-10): 9.883
+3181: From Up on Poppy Hill (2011-07-16): 9.859
+3201: Olaf's Frozen Adventure (2017-10-27): 9.841
+3221: 2010 (1984-12-06): 9.813
+3241: Resident Evil: Vendetta (2017-05-27): 9.791
+3261: Big Eyes (2014-12-24): 9.771
+3281: Dracula (1931-02-12): 9.75
+3301: Hidalgo (2004-03-05): 9.722
+3321: Nanny McPhee and the Big Bang (2010-03-26): 9.7
+3341: Kingsglaive: Final Fantasy XV (2016-07-09): 9.676
+3361: 1941 (1979-12-13): 9.661
+3381: The Smurfs 2 (2013-07-30): 9.642
+3401: 27 Dresses (2008-01-10): 9.622
+3421: Greystoke: The Legend of Tarzan, Lord of the Apes (1984-03-30): 9.598
+3441: Super Troopers (2001-01-18): 9.573
+3461: Sabrina (1954-09-28): 9.551
+3481: The X Files (1998-06-19): 9.521
+3501: Crows Zero (2007-10-26): 9.492
+3521: The Triplets of Belleville (2003-06-11): 9.469
+3541: 13 (2010-03-12): 9.453
+3561: Young Guns II (1990-08-01): 9.433
+3581: The Specialist (1994-10-07): 9.411
+3601: Toy Story That Time Forgot (2014-12-02): 9.39
+3621: Little Bitches (2018-01-23): 9.372
+3641: The Square (2017-08-25): 9.36
+3661: Mother (2009-05-28): 9.339
+3681: Taxi (1998-04-04): 9.321
+3701: The Gift (2015-07-30): 9.31
+3721: Dr. Dolittle 3 (2006-04-25): 9.292
+3741: The Hundred-Foot Journey (2014-08-06): 9.271
+3761: Our Brand Is Crisis (2015-09-11): 9.259
+3781: Spooks: The Greater Good (2015-04-11): 9.24
+3801: 42 (2013-04-12): 9.215
+3821: Hellraiser: Judgment (2018-02-13): 9.184
+3841: Space Battleship Yamato (2010-12-01): 9.157
+3861: Kodachrome (2017-09-08): 9.135
+3881: Bound by Honor (1993-02-05): 9.103
+3901: Mirrors (2008-08-15): 9.082
+3921: The Factory (2012-10-19): 9.058
+3941: Air America (1990-08-10): 9.035
+3961: In the Heat of the Night (1967-08-02): 9.009
+3981: Mannequin (1987-02-13): 8.997
+
+//End of POPULARITY: 5 subsection//
+//Start of POPULARITY: 4 subsection//
+
+4001: 2046 (2004-05-20): 8.979
+4021: Good Morning, Vietnam (1987-12-23): 8.955
+4041: Final Destination 5 (2011-08-12): 8.94
+4061: Singularity (2017-11-24): 8.923
+4081: Hannah Gadsby: Nanette (2018-06-19): 8.897
+4101: Sunshine (2007-04-05): 8.879
+4121: Teen Wolf (1985-08-23): 8.867
+4141: Based on a True Story (2017-11-01): 8.854
+4161: Book of Dragons (2011-11-15): 8.833
+4181: Tokyo Story (1953-11-03): 8.814
+4201: Quién te cantará (2018-10-24): 8.8
+4221: Attack on Titan II: End of the World (2015-09-01): 8.786
+4241: Detroit (2017-07-28): 8.768
+4261: Thawing Out (2009-02-02): 8.757
+4281: Ghost in the Shell Arise - Border 1: Ghost Pain (2013-06-22): 8.741
+4301: Drone (2017-05-26): 8.729
+4321: I Love You, Man (2009-03-20): 8.711
+4341: Wayne's World (1992-02-14): 8.697
+4361: The Good Shepherd (2006-12-11): 8.673
+4381: Kite (2014-06-13): 8.657
+4401: Over the Top (1987-02-13): 8.638
+4421: The Seagull (2018-05-11): 8.629
+4441: Anatomy of a Murder (1959-07-01): 8.613
+4461: Fish Tank (2009-05-14): 8.599
+4481: Barbie as Rapunzel (2002-10-01): 8.592
+4501: Red Heat (1988-06-17): 8.575
+4521: The Lusty Men (1952-10-24): 8.558
+4541: Ocean Waves (1993-05-05): 8.543
+4561: I Can Quit Whenever I Want (2014-02-06): 8.527
+4581: Peppa Pig: Festival of Fun (2019-04-05): 8.507
+4601: I Heart Huckabees (2004-09-10): 8.491
+4621: The Switch (2010-05-11): 8.474
+4641: Water for Elephants (2011-03-15): 8.455
+4661: Blood Diamond (2006-12-07): 8.445
+4681: Ip Man (2008-12-12): 8.435
+4701: The Fighter (2010-12-17): 8.421
+4721: Neruda (2016-06-17): 8.408
+4741: The World Is Yours (2018-08-15): 8.393
+4761: Take the Money and Run (1969-08-18): 8.375
+4781: Oliver! (1968-09-26): 8.356
+4801: Barbie: A Fairy Secret (2011-03-01): 8.337
+4821: Sinister 2 (2015-08-19): 8.32
+4841: Sudden Death (1995-10-27): 8.307
+4861: Vampire Hunter D: Bloodlust (2000-08-25): 8.291
+4881: Radius (2017-08-25): 8.275
+4901: The Final Countdown (1980-01-31): 8.26
+4921: With Open Arms (2017-04-05): 8.247
+4941: Pathfinder (2007-01-11): 8.226
+4961: BloodRayne (2005-10-22): 8.217
+4981: Kingpin (1996-07-04): 8.2
+5001: Cube Zero (2004-10-15): 8.186
+5021: Little Miss Sunshine (2006-07-26): 8.167
+5041: Robinson Crusoe (1997-06-11): 8.155
+5061: Unknown Soldier (2017-10-27): 8.142
+5081: Killer Klowns from Outer Space (1988-05-27): 8.123
+5101: Free State of Jones (2016-06-24): 8.112
+5121: Honey I Blew Up the Kid (1992-07-16): 8.099
+5141: North Country (2005-02-12): 8.077
+5161: Foreign Correspondent (1940-08-16): 8.059
+5181: Bottled with Love (2019-04-13): 8.046
+5201: Bad Words (2013-09-06): 8.032
+5221: Fluke (1995-06-02): 8.024
+5241: K.G.F: Chapter 1 (2018-12-20): 8.015
+5261: McFarland, USA (2015-02-20): 8.001
+5281: Beauty and the Beast (2014-02-12): 7.993
+5301: The Dilemma (2011-01-13): 7.976
+5321: Once Upon a Time in Mexico (2003-09-11): 7.959
+5341: Tenacious D in The Pick of Destiny (2006-11-22): 7.936
+5361: The Robe (1953-09-16): 7.924
+5381: Sleeper (1973-12-17): 7.913
+5401: The Andromeda Strain (1971-03-12): 7.904
+5421: Jack and Jill (2011-11-11): 7.887
+5441: The Imposter (2012-07-13): 7.872
+5461: To Die For (1995-09-22): 7.859
+5481: A Bay of Blood (1971-08-08): 7.848
+
+//End of POPULARITY: 4 subsection//
+//Start of POPULARITY: 3 subsection//
+
+5501: Barbie Fairytopia: Magic of the Rainbow (2007-01-01): 7.838
+5521: Nineteen Eighty-Four (1984-10-10): 7.828
+5541: The Big Sleep (1946-08-23): 7.819
+5561: Ballistic: Ecks vs. Sever (2002-09-20): 7.805
+5581: How the Grinch Stole Christmas! (2000-11-30): 7.792
+5601: Justice League: Gods and Monsters (2015-07-28): 7.778
+5621: Johnny Handsome (1989-09-12): 7.766
+5641: Red Sun (1971-09-15): 7.757
+5661: Young Adult (2011-12-16): 7.744
+5681: Honey, We Shrunk Ourselves (1997-03-18): 7.736
+5701: Irma la Douce (1963-06-04): 7.728
+5721: Land of the Lost (2009-06-05): 7.714
+5741: Embrace of the Vampire (1995-05-30): 7.701
+5761: The Lazarus Project (2008-10-24): 7.691
+5781: Colewell (2019-04-13): 7.682
+5801: The Model (2016-02-11): 7.672
+5821: Lupin the Third vs. Detective Conan (2009-03-27): 7.661
+5841: Fiddler on the Roof (1971-11-03): 7.649
+5861: Blue Jay (2016-10-07): 7.642
+5881: Toni Erdmann (2016-07-14): 7.631
+5901: The Most Beautiful Day (2016-02-25): 7.623
+5921: The Book of Life (2014-10-01): 7.613
+5941: A Christmas Prince (2017-11-17): 7.605
+5961: House at the End of the Street (2012-09-21): 7.594
+5981: Open Water (2003-12-29): 7.584
+6001: The Killing Fields (1984-11-02): 7.576
+6021: Backdraft (1991-05-24): 7.567
+6041: Goya's Ghosts (2006-11-08): 7.553
+6061: Adventureland (2009-04-03): 7.542
+6081: The Gendarme and the Gendarmettes (1982-10-03): 7.529
+6101: Loving Annabelle (2006-03-08): 7.519
+6121: Revolver (2005-09-11): 7.508
+6141: Christmas in Miami (2005-12-16): 7.497
+6161: The Student (1988-10-05): 7.487
+6181: With Every Heartbeat (2011-07-29): 7.475
+6201: Two Missionaries (1974-12-21): 7.467
+6221: TEKKEN: Blood Vengeance (2011-07-26): 7.452
+6241: Approaching the Unknown (2016-06-03): 7.443
+6261: Invisibles (2019-01-09): 7.431
+6281: The Midnight Meat Train (2008-08-07): 7.422
+6301: Jab We Met (2007-10-26): 7.41
+6321: The Rookie (1990-12-06): 7.401
+6341: Anne of Green Gables (1985-12-01): 7.389
+6361: Five Easy Pieces (1970-09-12): 7.379
+6381: Klute (1971-06-21): 7.366
+6401: The Student (2015-09-27): 7.36
+6421: Reality Bites (1994-02-18): 7.344
+6441: Welcome to the Punch (2013-03-15): 7.327
+6461: Zero (2018-12-21): 7.316
+6481: Terrified (2018-05-03): 7.305
+6501: Deadfall (2012-11-08): 7.294
+6521: Arsenic and Old Lace (1944-09-23): 7.282
+6541: Changing Lanes (2002-04-07): 7.274
+6561: Risen (2016-02-18): 7.261
+6581: Kangaroo Jack (2003-01-17): 7.246
+6601: The Squid and the Whale (2005-10-05): 7.235
+6621: Candyman: Farewell to the Flesh (1995-03-17): 7.221
+6641: Kull the Conqueror (1997-08-29): 7.211
+6661: Dracula: Prince of Darkness (1966-01-09): 7.2
+6681: Grizzly Man (2005-08-12): 7.19
+6701: Turn Me On, Dammit! (2011-08-19): 7.181
+6721: Jiro Dreams of Sushi (2011-06-11): 7.171
+6741: Boys Don't Cry (1999-09-02): 7.162
+6761: Unit 7 (2012-04-03): 7.154
+6781: Upstream Color (2013-04-05): 7.145
+6801: Aur Pyaar Ho Gaya (1997-08-15): 7.134
+6821: Guess Who's Coming to Dinner (1967-12-11): 7.122
+6841: The Correspondence (2016-01-14): 7.113
+6861: Rebelles (2019-03-13): 7.102
+6881: Ad Astra (2019-05-22): 7.094
+6901: God Forgives... I Don't! (1967-10-31): 7.083
+6921: Diabolique (1955-01-29): 7.073
+6941: Nomis (2018-09-28): 7.065
+6961: Winter Sleep (2014-06-13): 7.054
+6981: Men Vs Women (2010-10-27): 7.037
+
+//End of POPULARITY: 3 subsection//
+//Start of POPULARITY: 2 subsection//
+
+7001: Cooties (2014-10-10): 7.03
+7021: The Emerald Forest (1985-06-26): 7.023
+7041: The Bronze (2016-01-22): 7.011
+7061: Clinical (2017-01-13): 7
+7081: Trash (2014-10-09): 6.989
+7101: On the Other Side of the Tracks (2012-12-15): 6.983
+7121: Paranormal Activity 2 (2010-10-20): 6.974
+7141: Tai Chi Hero (2012-10-25): 6.962
+7161: A Hijacking (2012-02-26): 6.955
+7181: Joy Ride 2: Dead Ahead (2008-10-07): 6.945
+7201: Make It Happen (2008-08-08): 6.941
+7221: The White Ribbon (2009-10-06): 6.93
+7241: Michel Vaillant (2003-11-08): 6.924
+7261: Seven Days in May (1964-02-12): 6.912
+7281: Avanti! (1972-12-17): 6.903
+7301: Stick It (2006-04-21): 6.898
+7321: City Heat (1984-12-05): 6.89
+7341: Central Station (1998-11-20): 6.881
+7361: The Padre (2018-09-28): 6.87
+7381: The Invitation (2015-08-05): 6.861
+7401: Into the Grizzly Maze (2015-02-27): 6.853
+7421: Something Wild (1986-11-07): 6.845
+7441: Confucius (2010-02-11): 6.831
+7461: Volver (2006-03-16): 6.822
+7481: A Whole Life Ahead (2008-03-28): 6.815
+7501: Always (2011-10-20): 6.809
+7521: Gaga: Five Foot Two (2017-09-08): 6.803
+7541: That Man from Rio (1964-02-05): 6.791
+7561: 88 (2015-01-06): 6.782
+7581: The Substitute (1996-04-19): 6.778
+7601: The Chase (1994-03-04): 6.771
+7621: Detective Conan: Crossroad in the Ancient Capital (2003-04-19): 6.761
+7641: The Measure of a Man (2015-03-16): 6.749
+7661: XX (2017-02-17): 6.741
+7681: Look Who's Back (2015-10-08): 6.734
+7701: Stargate: The Ark of Truth (2008-03-11): 6.724
+7721: Ace in the Hole (1951-06-29): 6.709
+7741: The 7th Dwarf (2014-09-24): 6.702
+7761: The Great Buck Howard (2008-01-18): 6.691
+7781: Things to Do in Denver When You're Dead (1995-12-01): 6.682
+7801: Critters 3 (1991-12-11): 6.674
+7821: Treasure Island (1950-07-18): 6.664
+7841: 21 & Over (2013-03-01): 6.657
+7861: Persepolis (2007-05-23): 6.648
+7881: New World (2013-02-21): 6.638
+7901: Charade (1963-12-05): 6.629
+7921: A Star Is Born (1976-12-16): 6.623
+7941: A Royal Night Out (2015-05-14): 6.612
+7961: Bring It On (2000-08-25): 6.607
+7981: Play Misty for Me (1971-11-03): 6.599
+8001: Zoom (2006-08-11): 6.587
+8021: Handsome Devil (2017-02-15): 6.575
+8041: Get a Horse! (2013-11-27): 6.567
+8061: The Mad Adventures of Rabbi Jacob (1973-10-17): 6.562
+8081: Biloxi Blues (1988-03-25): 6.551
+8101: Finders Keepers (2014-10-18): 6.54
+8121: Jackass 2.5 (2007-12-18): 6.532
+8141: Don't Blame the Kid (2016-05-13): 6.525
+8161: Synchronicity (2015-07-22): 6.52
+8181: Unaccompanied Minors (2006-12-08): 6.514
+8201: Virunga (2014-11-07): 6.507
+8221: The Nines (2007-01-21): 6.501
+8241: Lucky (2017-09-29): 6.494
+8261: Graduation (2016-05-20): 6.485
+8281: Angels with Dirty Faces (1938-11-26): 6.475
+8301: The Cameraman (1928-09-10): 6.466
+8321: Dragons: Dawn Of The Dragon Racers (2014-11-01): 6.46
+8341: The Last Mimzy (2007-02-09): 6.454
+8361: Meet the Blacks (2016-04-01): 6.444
+8381: Mega Shark vs. Crocosaurus (2010-12-21): 6.434
+8401: Poetry (2010-05-13): 6.429
+8421: Night Moves (1975-06-11): 6.421
+8441: Outland (1981-05-22): 6.412
+8461: Elles (2011-09-09): 6.405
+8481: The World According to Garp (1982-08-13): 6.398
+8501: The Young and Prodigious T.S. Spivet (2013-10-16): 6.39
+8521: Braid (2019-01-10): 6.384
+8541: Moebius (2013-09-05): 6.375
+8561: The Fourth Protocol (1987-08-28): 6.366
+8581: The Flirting Scholar (1993-07-01): 6.359
+
+//End of POPULARITY: 2 subsection//
+//Start of POPULARITY: 1 subsection//
+
+8601: What the Day Owes the Night (2012-09-12): 6.349
+8621: 40 Days and 40 Nights (2002-03-01): 6.346
+8641: The Other Side of Hope (2017-02-03): 6.338
+8661: The Natural (1984-05-11): 6.329
+8681: Nurse Betty (2000-09-08): 6.323
+8701: Armed Response (2017-08-04): 6.315
+8721: Shortcut to Happiness (2003-02-19): 6.306
+8741: Rocco and His Brothers (1960-10-06): 6.295
+8761: Riot (2015-09-27): 6.29
+8781: Dangerous Minds (1995-08-11): 6.281
+8801: Johnny Dangerously (1984-12-21): 6.278
+8821: Russian Dolls (2005-06-15): 6.267
+8841: Kal Ho Naa Ho (2003-11-27): 6.261
+8861: Angel Eyes (2001-05-15): 6.256
+8881: The Land Before Time V: The Mysterious Island (1997-09-12): 6.251
+8901: City Hall (1996-02-16): 6.243
+8921: All That Glitters (2010-03-24): 6.236
+8941: Black Sheep (2006-09-09): 6.229
+8961: I Remember You (2017-05-05): 6.224
+8981: Vive la France (2013-02-19): 6.217
+9001: Fighter In The Wind (2004-08-12): 6.208
+9021: Army of Shadows (1969-09-10): 6.2
+9041: Sleuth (2007-10-12): 6.193
+9061: Dunston Checks In (1996-01-12): 6.186
+9081: Furious 10 (2021-04-01): 6.177
+9101: Steamboat Willie (1928-11-18): 6.168
+9121: City of the Living Dead (1980-08-11): 6.16
+9141: Visitor Q (2001-03-17): 6.151
+9161: Half Light (2006-01-17): 6.146
+9181: Addicted to Love (1997-05-23): 6.14
+9201: 10 Rules for Sleeping Around (2014-04-04): 6.134
+9221: Grudge Match (2013-12-25): 6.119
+9241: Ginger Snaps Back: The Beginning (2004-07-10): 6.111
+9261: Earthquake (1974-11-15): 6.105
+9281: We Are the Night (2010-10-28): 6.097
+9301: The Seasoning House (2012-08-21): 6.092
+9321: Get Out Your Handkerchiefs (1978-01-11): 6.085
+9341: Magical Girl Lyrical Nanoha: Detonation (2018-10-19): 6.077
+9361: Airport (1970-03-05): 6.069
+9381: Belgica (2016-03-02): 6.063
+9401: Cruising (1980-05-06): 6.055
+9421: The Heart is Deceitful Above All Things (2004-09-15): 6.047
+9441: Vexille (2007-08-18): 6.039
+9461: Double Identity (2009-12-18): 6.035
+9481: Five (2016-03-30): 6.028
+9501: Exorcist II: The Heretic (1977-06-17): 6.022
+9521: A Dark Song (2016-10-14): 6.016
+9541: Anything for Her (2008-12-03): 6.01
+9561: Lilly the Witch The Dragon and the Magic Book (2009-02-12): 6.005
+9581: Detainment (2018-05-30): 5.998
+9601: Men in Black: International (2019-06-12): 5.994
+9621: Redacted (2007-01-01): 5.982
+9641: Avalon (2001-01-20): 5.976
+9661: The Last Station (2009-09-04): 5.969
+9681: Near Dark (1987-10-02): 5.964
+9701: Seashore (2015-06-21): 5.956
+9721: Boy Bye (2016-09-16): 5.951
+9741: Death Hunt (1981-05-22): 5.943
+9761: Girl in Progress (2012-05-11): 5.936
+9781: Hobo with a Shotgun (2011-05-06): 5.928
+9801: Rockstar (2011-11-11): 5.917
+9821: Chain Letter (2010-10-01): 5.912
+9841: Lantana (2001-10-04): 5.899
+9861: Trade (2007-01-23): 5.89
+9881: The Driller Killer (1979-06-15): 5.883
+9901: Things We Lost in the Fire (2007-09-26): 5.874
+9921: The Jurassic Games (2018-05-21): 5.867
+9941: The Sunset Limited (2011-02-12): 5.861
+9961: 303 (2018-12-06): 5.852
+9981: Dragon Wars: D-War (2007-02-08): 5.848
+
+//End of POPULARITY: 1 subsection//
+//Start of POPULARITY: 0 subsection//
+
+10001: Fracchia The Human Beast (1981-12-22): 5.842
+10021: Operation Corned Beef (1991-02-05): 5.834
+10041: Batman: Hush (2019-04-16): 5.828
+10061: Lorenzo's Oil (1992-12-30): 5.822
+10081: Rafiki (2018-09-26): 5.814
+10101: The Sacrament (2013-09-02): 5.809
+10121: The Pirates of Somalia (2017-12-08): 5.802
+10141: ma ma (2015-09-11): 5.796
+10161: Children of Heaven (1997-08-01): 5.788
+10181: Wristcutters: A Love Story (2006-01-24): 5.782
+10201: Mediterraneo (1991-01-31): 5.772
+10221: War of the Buttons (1962-04-18): 5.764
+10241: Anita (1973-12-25): 5.755
+10261: Chances Are (1989-03-10): 5.749
+10281: American Ninja 4: The Annihilation (1990-10-30): 5.743
+10301: Brighton Rock (2010-09-13): 5.735
+10321: The Dinosaur Project (2012-08-09): 5.726
+10341: Amen. (2002-02-13): 5.72
+10361: Up to His Ears (1965-12-04): 5.71
+10381: Nicholas Nickleby (2002-12-27): 5.703
+10401: Scialla! (Stai sereno) (2011-11-18): 5.696
+10421: Underdogs (2013-07-18): 5.689
+10441: For Love of the Game (1999-09-17): 5.68
+10461: Another Gay Movie (2006-04-28): 5.673
+10481: Super Hybrid (2010-01-01): 5.664
+10501: Bel Ami (2012-03-09): 5.657
+10521: The Beatles: Eight Days a Week - The Touring Years (2016-09-15): 5.65
+10541: What About Bob? (1991-05-17): 5.643
+10561: Final Portrait (2017-08-03): 5.634
+10581: Soul Survivors (2001-09-06): 5.629
+10601: Hush... Hush, Sweet Charlotte (1964-12-15): 5.621
+10621: Lay the Favorite (2012-06-22): 5.616
+10641: Sushi Girl (2012-12-07): 5.61
+10661: 24 Hour Party People (2002-02-13): 5.601
+10681: Don't Move (2004-03-12): 5.594
+10701: A Chinese Odyssey Part Two: Cinderella (1995-02-04): 5.585
+10721: The Children's Hour (1961-01-01): 5.575
+10741: Manitou's Shoe (2001-07-11): 5.569
+10761: Cargo (2009-09-24): 5.562
+10781: The Panic in Needle Park (1971-07-13): 5.555
+10801: Black Sabbath (1963-08-17): 5.551
+10821: Slums of Beverly Hills (1998-08-14): 5.542
+10841: Storm Warning (2008-01-17): 5.536
+10861: The Lonely Guy (1984-01-27): 5.529
+10881: Going My Way (1944-05-15): 5.52
+10901: Two for the Road (1967-04-27): 5.514
+10921: How to Deal (2003-07-18): 5.507
+10941: Snow Cake (2006-01-24): 5.5
+10961: Frankenstein Meets the Wolf Man (1943-03-05): 5.494
+10981: Infidelity in Suburbia (2017-02-25): 5.489
+11001: Lezioni di cioccolato (2007-11-23): 5.484
+11021: Stromberg - The Movie (2014-02-20): 5.477
+11041: Titanic (1953-04-11): 5.471
+11061: Life on the Line (2015-11-05): 5.466
+11081: Scooby-Doo! Camp Scare (2010-09-14): 5.457
+11101: The Miracle Worker (1962-05-22): 5.452
+11121: Winnie the Pooh: A Very Merry Pooh Year (2002-01-01): 5.446
+11141: The Winning Season (2009-01-19): 5.44
+11161: The Beast of War (1988-09-14): 5.432
+11181: And Then There Were None (1945-10-31): 5.426
+11201: Second Star on the Right (2019-04-05): 5.421
+11221: Waterloo (1970-10-26): 5.412
+11241: Lucifer (2019-03-28): 5.403
+11261: Sleuth (1972-12-10): 5.396
+11281: Fear Over the City (1975-04-09): 5.39
+11301: Tommy (1975-03-19): 5.383
+11321: I Am Michael (2015-01-29): 5.377
+11341: The Salt of the Earth (2014-09-27): 5.37
+11361: Dr. T & the Women (2000-09-13): 5.366
+11381: Village of the Damned (1960-06-16): 5.358
+11401: Division 19 (2017-02-24): 5.348
+11421: Puppet Master: The Littlest Reich (2018-08-17): 5.34
+11441: Eyewitness (1981-02-13): 5.333
+11461: Loucas pra Casar (2015-01-08): 5.324
+11481: The Doom Generation (1995-10-27): 5.317
+11501: Death Wish 4: The Crackdown (1987-06-11): 5.31
+11521: Parmanu: The Story of Pokhran (2018-05-25): 5.298
+11541: Josie (2018-03-16): 5.289
+11561: ATL (2006-03-31): 5.282
+11581: Branded to Kill (1967-06-15): 5.275
+11601: Loch Ness (1996-08-23): 5.268
+11621: Hush (1998-03-06): 5.26
+11641: Satanic (2016-07-01): 5.255
+11661: Wrecked (2011-04-01): 5.247
+11681: The History Boys (2006-10-02): 5.24
+11701: The Complexity of Happiness (2015-11-26): 5.234
+11721: The Dead Don't Die (2019-06-14): 5.228
+11741: Lilting (2014-08-07): 5.219
+11761: Expelled (2014-12-12): 5.211
+11781: Baby Geniuses (1999-03-12): 5.203
+11801: Damage (2009-10-05): 5.195
+11821: The Lovers on the Bridge (1991-10-16): 5.188
+11841: The Flower of My Secret (1995-09-22): 5.18
+11861: The Chronicles of Riddick (2004-06-11): 5.173
+11881: Hellions (2015-09-25): 5.166
+11901: Forgotten (2017-11-29): 5.158
+11921: Yes, I Do (2018-06-30): 5.154
+11941: Miami Blues (1990-04-20): 5.146
+11961: The Class (2008-09-24): 5.138
+11981: Six Shooter (2004-01-01): 5.131
+12001: Raze (2013-04-21): 5.13
+12021: The Good Thief (2003-04-03): 5.12
+12041: Detective Conan: Crimson Love Letter (2017-04-15): 5.115
+12061: A Chinese Torture Chamber Story (1994-05-19): 5.108
+12081: The Keeper (2019-03-14): 5.102
+12101: The Hindenburg (1975-12-25): 5.096
+12121: King of Kings (1961-10-11): 5.09
+12141: High Sierra (1941-01-25): 5.083
+12161: Kamen Rider × Super Sentai: Chou Super Hero Taisen (2017-03-25): 5.079
+12181: Cazuza: Time Doesn't Stop (2004-06-11): 5.072
+12201: Come tu mi vuoi (2007-10-09): 5.067
+12221: Death Defying Acts (2007-09-13): 5.058
+12241: Moliere (2007-01-31): 5.052
+12261: Kindergarten Cop (1990-12-21): 5.046
+12281: Prema Katha Chitram 2 (2019-04-06): 5.039
+12301: Tifosi (1999-10-01): 5.032
+12321: Rudderless (2014-10-17): 5.023
+12341: Sylvia (2003-10-17): 5.015
+12361: Banzaï (1983-03-23): 5.005
+12381: Slaughterhouse-Five (1972-03-15): 4.998
+12401: Leprechaun in the Hood (2000-03-28): 4.995
+12421: Doctor Who: The Next Doctor (2008-12-25): 4.984
+12441: The Concert (2009-09-01): 4.974
+12461: Suç Unsuru (2019-04-05): 4.968
+12481: 7 Below (2012-04-16): 4.962
+12501: After Everything (2018-10-12): 4.953
+12521: There Be Dragons (2011-03-25): 4.948
+12541: Alien Raiders (2008-09-21): 4.936
+12561: Home Invasion (2016-02-02): 4.928
+12581: Little Otik (2001-01-25): 4.92
+12601: JoJo's Bizarre Adventure: Diamond Is Unbreakable - Chapter 1 (2017-08-04): 4.916
+12621: Law of Desire (1987-02-06): 4.907
+12641: Bleeder (1999-08-06): 4.897
+12661: 4bia (2008-04-25): 4.892
+12681: La Tour 2 Contrôle Infernale (2016-02-10): 4.885
+12701: My Little Princess (2011-06-29): 4.878
+12721: Electrick Children (2012-02-10): 4.871
+12741: Heaven Can Wait (1943-08-11): 4.864
+12761: Sweet Sixteen (2002-05-21): 4.854
+12781: La mossa del cavallo (2018-02-26): 4.848
+12801: Across 110th Street (1972-12-19): 4.845
+12821: Men of War (1994-09-04): 4.836
+12841: Ladies in Black (2018-10-18): 4.829
+12861: Flic Story (1975-10-01): 4.823
+12881: Trouble Is My Business (2018-04-03): 4.818
+12901: 8 Million Ways to Die (1986-04-25): 4.81
+12921: Love on the Slopes (2018-01-06): 4.801
+12941: Nothing Sacred (1937-11-25): 4.794
+12961: Louis C.K.: Live at the Beacon Theater (2011-12-10): 4.787
+12981: Irresistible (2006-04-18): 4.781
+13001: Max (2002-09-10): 4.775
+13021: Mia Martini - I Am Mia (2019-01-14): 4.769
+13041: The Fallen Idol (1948-09-30): 4.761
+13061: An Autumn Afternoon (1962-11-18): 4.752
+13081: Fuochi d'artificio (1997-10-10): 4.749
+13101: Amour sur place ou à emporter (2014-05-28): 4.742
+13121: Até que a Sorte nos Separe 3 - A Falência Final (2015-12-31): 4.736
+13141: Molly Moon and the Incredible Book of Hypnotism (2015-04-11): 4.731
+13161: Shoulder Arms (1918-08-20): 4.722
+13181: Swinging with the Finkels (2011-06-01): 4.715
+13201: Addio Fottuti Musi Verdi (2017-11-09): 4.71
+13221: Yol (1982-09-01): 4.7
+13241: As Luck Would Have It (2011-11-30): 4.694
+13261: Population 436 (2006-07-04): 4.689
+13281: Inspector Blunder (1980-12-03): 4.682
+13301: The Match Factory Girl (1990-01-12): 4.675
+13321: Big is Beautiful (2012-03-27): 4.671
+13341: Dracula Has Risen from the Grave (1968-11-07): 4.666
+13361: The Man Who Laughs (2012-12-26): 4.661
+13381: Emanuelle Around the World (1977-09-16): 4.654
+13401: Cops & Robbersons (1994-04-15): 4.649
+13421: Deadly Pickup (2016-07-26): 4.642
+13441: Because of Winn-Dixie (2005-02-18): 4.635
+13461: Cop or Hood (1979-03-28): 4.628
+13481: Samurai Rebellion (1967-05-27): 4.62
+13501: Winged Migration (2001-12-12): 4.614
+13521: Super Deluxe (2019-03-29): 4.609
+13541: The Pawnbroker (1965-04-20): 4.601
+13561: Croupier (1998-06-25): 4.592
+13581: Viva Maria! (1965-11-22): 4.586
+13601: Nostalgia (2018-02-16): 4.583
+13621: Nude Nuns with Big Guns (2010-09-24): 4.574
+13641: Jumanji (1995-12-15): 4.568
+13661: The Five People You Meet In Heaven (2004-12-05): 4.561
+13681: The City of Violence (2006-05-25): 4.553
+13701: The Dead Next Door (1989-11-10): 4.547
+13721: Strayed (2003-08-20): 4.54
+13741: Batman Unlimited: Monster Mayhem (2015-08-18): 4.532
+13761: Wicked (1998-01-17): 4.528
+13781: Furlough (2018-03-16): 4.522
+13801: Born Yesterday (1950-12-25): 4.516
+13821: The Family Friend (2006-10-01): 4.509
+13841: Alice's Restaurant (1969-08-20): 4.505
+13861: Natale a Londra - Dio salvi la Regina (2016-12-15): 4.499
+13881: Interstellar: Nolan's Odyssey (2014-11-05): 4.492
+13901: Tell-Tale (2009-04-24): 4.486
+13921: Chasing the Dragon (2017-09-28): 4.48
+13941: Holy Smoke (1999-09-04): 4.474
+13961: Gulliver's Travels (1939-11-10): 4.467
+13981: Nowhere Boys: The Book of Shadows (2016-01-01): 4.463
+14001: Primeval (2007-01-12): 4.46
+14021: Tel chi el telùn (2009-03-01): 4.45
+14041: The Red Collar (2018-03-28): 4.444
+14061: A Mighty Team (2016-03-23): 4.437
+14081: Shrooms (2007-08-16): 4.432
+14101: Jesus Henry Christ (2012-05-04): 4.425
+14121: Ready to Rumble (2000-04-07): 4.42
+14141: Dear Wendy (2005-02-04): 4.415
+14161: Robot Chicken: Star Wars Episode III (2010-12-19): 4.41
+14181: Tea with Mussolini (1999-03-25): 4.404
+14201: How to Eat Fried Worms (2006-01-01): 4.399
+14221: Another Woman's Life (2012-02-14): 4.392
+14241: Drowning by Numbers (1988-09-10): 4.386
+14261: The Little Drummer Girl (1984-10-19): 4.383
+14281: Astro (2018-06-08): 4.377
+14301: The Taking of Tiger Mountain (2014-12-24): 4.371
+14321: I'm Not Ashamed (2016-10-21): 4.364
+14341: Marrakech Express (1989-11-01): 4.359
+14361: The Old Man and the Sea (1958-10-07): 4.354
+14381: House on the Edge of the Park (1980-11-06): 4.348
+14401: Destricted (2006-09-15): 4.345
+14421: The Loneliness of the Long Distance Runner (1962-09-20): 4.337
+14441: Girls' Night Out (1998-10-03): 4.332
+14461: A Somewhat Gentle Man (2010-03-19): 4.327
+14481: Warfighter (2018-06-06): 4.322
+14501: Frosty's Winter Wonderland (1976-12-02): 4.313
+14521: Under the Hawthorn Tree (2010-09-15): 4.305
+14541: Secret Love (2010-03-25): 4.3
+14561: Shéhérazade (2018-09-05): 4.296
+14581: Nazi Overlord (2018-11-13): 4.292
+14601: Planet of the Sharks (2016-07-27): 4.288
+14621: Mr. Vampire 1992 (1992-08-08): 4.284
+14641: Mary and Martha (2013-03-01): 4.277
+14661: You Can't Save Yourself Alone (2015-03-05): 4.271
+14681: Le Deuxième Souffle (1966-11-01): 4.265
+14701: The Rachel Divide (2018-04-23): 4.259
+14721: Returner (2002-08-31): 4.252
+14741: As It Is in Heaven (2004-09-03): 4.246
+14761: Wedding March 3: Here Comes the Bride (2018-02-17): 4.243
+14781: Naughty Grandma 2 (2019-01-24): 4.238
+14801: Bodies at Rest (2019-04-04): 4.236
+14821: Scool Is Over (2018-07-11): 4.227
+14841: Firefighters 2: Heroic Mission (1987-04-09): 4.222
+14861: Ivanukku Engeyo Macham Irukku (2018-12-07): 4.216
+14881: Hit-and-Run Squad (2019-01-30): 4.207
+14901: Babylon 5: The Lost Tales - Voices in the Dark (2007-07-31): 4.205
+14921: Taking Care of Business (1990-08-16): 4.198
+14941: Meet the Deedles (1998-03-27): 4.193
+14961: The Recce (2018-09-28): 4.189
+14981: Dear Inspector (1977-08-10): 4.183
+15001: Mall (2014-06-18): 4.178
+15021: Lemming (2005-05-11): 4.171
+15041: My Son (2006-03-07): 4.167
+15061: Zero Motivation (2014-06-26): 4.162
+15081: Radiostars (2012-04-11): 4.156
+15101: Koyla (1997-04-18): 4.152
+15121: Ed (1996-03-15): 4.148
+15141: Step Up Love Story: Second Kiss (2011-12-17): 4.142
+15161: The Trial of Joan of Arc (1962-05-30): 4.137
+15181: Dear Ex (2018-11-02): 4.133
+15201: The Snowman and The Snowdog (2012-12-24): 4.13
+15221: Kapoor & Sons (2016-03-18): 4.123
+15241: The Joy Luck Club (1993-09-08): 4.117
+15261: The Skeleton Dance (1929-08-21): 4.111
+15281: Deadman Standing (2018-04-15): 4.108
+15301: Jude (1996-02-06): 4.103
+15321: Under Fire (1983-10-21): 4.097
+15341: Sen Kiminle Dans Ediyorsun? (2017-11-17): 4.091
+15361: Greed (1925-01-26): 4.085
+15381: Avalanche Sharks (2014-01-01): 4.082
+15401: Santiago, Italia (2018-12-06): 4.075
+15421: Tom and Jerry: Willy Wonka and the Chocolate Factory (2017-06-28): 4.07
+15441: Secret Millionaire (2018-01-06): 4.066
+15461: Night of the Demons (2009-08-30): 4.062
+15481: Me and Morrison (2001-12-28): 4.058
+15501: Sanky Panky 3 (2018-03-18): 4.051
+15521: Vitamania: The Sense and Nonsense of Vitamins (2018-07-28): 4.046
+15541: Final Flight of the Osiris (2003-03-21): 4.04
+15561: Heavy Metal 2000 (2000-04-19): 4.034
+15581: Little Sister (2016-10-06): 4.028
+15601: Make the Yuletide Gay (2009-11-01): 4.022
+15621: Viva Las Vegas (1964-05-20): 4.016
+15641: One Piece: Chopper's Kingdom on the Island of Strange Animals (2002-03-02): 4.01
+15661: The Horde (2009-08-28): 4.006
+15681: Best Worst Movie (2009-01-01): 3.999
+15701: The Apple Dumpling Gang (1975-07-01): 3.995
+15721: Alaska (1996-08-14): 3.989
+15741: Virtuality (2009-06-26): 3.984
+15761: Fists in the Pocket (1965-10-31): 3.977
+15781: Dirty John, The Dirty Truth (2019-01-14): 3.973
+15801: Miracle in Milan (1951-02-08): 3.965
+15821: Sand Sharks (2011-12-20): 3.959
+15841: Captain Kronos: Vampire Hunter (1974-04-07): 3.953
+15861: Café de Flore (2011-11-17): 3.948
+15881: Some Guy Who Kills People (2011-04-14): 3.943
+15901: Bad Asses on the Bayou (2015-03-06): 3.939
+15921: Aimee & Jaguar (1999-02-10): 3.933
+15941: The Pig Who Cried Werewolf (2011-10-04): 3.928
+15961: No Retreat, No Surrender 2: Raging Thunder (1987-11-05): 3.924
+15981: Hamlet 2 (2008-01-21): 3.917
+16001: Wild Oats (2016-09-22): 3.914
+16021: Julien Donkey-Boy (1999-09-07): 3.91
+16041: Seems Like Old Times (1980-12-19): 3.905
+16061: Death in a French Garden (1985-02-13): 3.902
+16081: A Girl Cut in Two (2007-08-08): 3.898
+16101: Cutie and the Boxer (2013-08-16): 3.891
+16121: The Drowning (2016-10-08): 3.886
+16141: Celtic Pride (1996-04-19): 3.882
+16161: Os Normais: O Filme (2003-10-24): 3.877
+16181: Bibi & Tina: Perfect Pandemonium (2017-02-23): 3.872
+16201: Havenhurst (2016-08-22): 3.866
+16221: Bibi Blocksberg and the Secret of Blue Owls (2004-09-29): 3.862
+16241: Thirty Seconds Over Tokyo (1944-11-15): 3.856
+16261: The Thirteenth Tale (2013-12-30): 3.851
+16281: Nove lune e mezza (2017-10-12): 3.847
+16301: Our Universe 3D (2013-08-06): 3.842
+16321: Bene ma non benissimo (2019-04-04): 3.837
+16341: Time for Me to Come Home for Christmas (2018-12-15): 3.832
+16361: Demetri Martin: The Overthinker (2018-08-10): 3.827
+16381: The Canterville Ghost (1996-10-03): 3.821
+16401: Marjorie Prime (2017-01-23): 3.817
+16421: Inuyasha the Movie: Affections Touching Across Time (2001-12-15): 3.811
+16441: Seeing Allred (2018-01-21): 3.805
+16461: The Tribes of Palos Verdes (2017-12-01): 3.801
+16481: Kung Fu Cult Master (1993-12-18): 3.795
+16501: The Thief of Bagdad (1924-03-18): 3.79
+16521: General Della Rovere (1959-10-07): 3.786
+16541: Child's Pose (2013-03-08): 3.781
+16561: An Average Little Man (1977-03-17): 3.777
+16581: Lone Wolf and Cub: Baby Cart in Peril (1972-12-30): 3.772
+16601: Our Futures (2015-07-22): 3.767
+16621: La Bête Humaine (1938-12-23): 3.763
+16641: D.C. Sniper: 23 Days of Fear (2003-10-17): 3.758
+16661: I Am Bruce Lee (2012-02-09): 3.753
+16681: Operation Scorpio (1992-09-10): 3.749
+16701: I Dreamed of Africa (2000-05-05): 3.745
+16721: Volontaire (2018-06-06): 3.741
+16741: Reinventing Marvin (2017-11-22): 3.736
+16761: Circle of Friends (1995-04-07): 3.731
+16781: Torment (1944-10-02): 3.725
+16801: Karlsson on the Roof (1974-12-07): 3.722
+16821: Nagmamahal, Sal (2019-04-04): 3.718
+16841: 14 Cameras (2018-07-13): 3.714
+16861: Motorway (2012-06-21): 3.71
+16881: The Curse of King Tut's Tomb (2006-04-11): 3.706
+16901: Not on the Lips (2003-12-03): 3.7
+16921: Tresor (2009-11-11): 3.697
+16941: Foodfight! (2012-06-15): 3.693
+16961: Super Margin (2019-04-04): 3.689
+16981: Hideous Kinky (1998-11-17): 3.686
+17001: Schizopolis (1996-05-18): 3.682
+17021: October (Ten Days that Shook the World) (1928-01-20): 3.675
+17041: Judwaa 2 (2017-09-29): 3.672
+17061: The Clan of the Cave Bear (1986-01-17): 3.669
+17081: All the Reasons to Forget (2018-03-01): 3.662
+17101: Strike! (1998-08-21): 3.657
+17121: Galaxy Express 999 (1979-08-04): 3.651
+17141: The Taste of Tea (2004-07-17): 3.647
+17161: The Warrior (2001-09-07): 3.641
+17181: Thunderbirds are GO (1966-12-15): 3.637
+17201: Do Women Have a Higher Sex Drive? (2018-06-05): 3.632
+17221: Drive Thru (2007-05-29): 3.628
+17241: Avengers Grimm (2015-03-17): 3.624
+17261: Skinning (2010-10-06): 3.62
+17281: The Sovereign's Servant (2007-02-20): 3.616
+17301: Still Crazy (1998-10-30): 3.612
+17321: A Muppet Family Christmas (1987-12-16): 3.608
+17341: 2:22 (2008-09-24): 3.604
+17361: Watch Me Burn (2018-11-05): 3.6
+17381: Evening (2007-06-09): 3.596
+17401: Gothic (1986-11-30): 3.591
+17421: Invasion of the Bee Girls (1973-06-01): 3.587
+17441: On Wings of Eagles (2017-11-03): 3.582
+17461: Mothers and Daughters (2016-05-06): 3.576
+17481: Cesar and Rosalie (1972-10-26): 3.57
+17501: The Incredible Shrinking Woman (1981-01-30): 3.567
+17521: Blood from the Mummy's Tomb (1971-06-16): 3.563
+17541: National Lampoon's The Legend of Awesomest Maximus (2011-08-05): 3.559
+17561: Dave Chappelle's Block Party (2005-09-12): 3.554
+17581: La Ronde (1950-09-27): 3.548
+17601: Our Women (2015-04-29): 3.545
+17621: Lipstiek Dipstiek (1994-11-25): 3.54
+17641: Haikyuu!! Movie 4: Battle of Concepts (2017-09-29): 3.535
+17661: Amphibian Man (1962-01-03): 3.53
+17681: Cloud 9 (2008-05-17): 3.527
+17701: Stations of the Cross (2014-03-20): 3.522
+17721: The Girl with a Pistol (1968-08-22): 3.518
+17741: Gross Anatomy (1989-10-20): 3.515
+17761: The Revenge of Frankenstein (1958-06-01): 3.511
+17781: Miss Nobody (2010-06-10): 3.507
+17801: Trailer Park Boys: The Movie (2006-10-06): 3.502
+17821: The Trumpet Of The Swan (2001-05-11): 3.5
+17841: Class Act (1992-06-05): 3.496
+17861: Les Municipaux, ces héros (2018-04-25): 3.493
+17881: Auntie Mame (1958-12-27): 3.488
+17901: Three Coins in the Fountain (1954-05-01): 3.483
+17921: Amazons and Gladiators (2001-09-01): 3.48
+17941: Lost Girls and Love Hotels (2019-12-31): 3.476
+17961: Doraemon: Nobita and the Windmasters (2003-03-08): 3.471
+17981: Standing Still (2005-01-02): 3.468
+18001: Pure Hearts (2017-04-21): 3.463
+18021: Ministry of Fear (1944-10-15): 3.459
+18041: People I Know (2002-11-21): 3.456
+18061: Harry Dean Stanton: Partly Fiction (2012-09-05): 3.452
+18081: 14+ (2015-02-07): 3.447
+18101: Beur sur la ville (2011-10-11): 3.445
+18121: Drifting Clouds (1996-01-26): 3.44
+18141: Pola X (1999-05-12): 3.437
+18161: Neevevaro (2018-08-24): 3.434
+18181: Flu Bird Horror (2008-08-23): 3.431
+18201: Dracula (1931-03-11): 3.424
+18221: Star Wars Rebels: Spark of Rebellion (2014-10-03): 3.42
+18241: I Do Not Care If We Go Down in History as Barbarians (2018-09-28): 3.418
+18261: Savage Streets (1984-08-30): 3.414
+18281: Little Lili (2003-08-27): 3.41
+18301: The Olive Tree (2016-05-06): 3.406
+18321: Young Love (1987-05-21): 3.402
+18341: Seven Years of Marriage (2003-06-25): 3.399
+18361: Ufuraj se i pukni (2019-04-04): 3.395
+18381: Brightest Star (2014-01-31): 3.39
+18401: Overheard 2 (2011-08-18): 3.385
+18421: Murphy's Romance (1985-12-25): 3.381
+18441: Parasyte: Part 2 (2015-04-25): 3.377
+18461: Breakdown Lane (2017-01-05): 3.375
+18481: Raw Deal (1948-05-26): 3.37
+18501: Atomica (2017-03-17): 3.367
+18521: Edges of the Lord (2001-01-01): 3.361
+18541: Danika (2006-06-10): 3.359
+18561: Escape Plan 3: Devil's Station (2019-12-31): 3.354
+18581: Lezioni di cioccolato 2 (2011-11-10): 3.35
+18601: The Last Drop (2005-05-23): 3.346
+18621: Red Room (1999-06-03): 3.343
+18641: Xu?ng 13 (2018-03-28): 3.339
+18661: Two Men in Town (2014-02-06): 3.336
+18681: Casque d'Or (1952-04-16): 3.331
+18701: L'Île aux trésors (2007-07-31): 3.329
+18721: The Bird People in China (1998-06-10): 3.326
+18741: Jim Jefferies: Freedumb (2016-07-01): 3.322
+18761: The Julius House: An Aurora Teagarden Mystery (2016-10-16): 3.318
+18781: Mere Pyaare Prime Minister (2019-03-14): 3.315
+18801: Suburbia (1983-08-27): 3.309
+18821: Mobile Suit Gundam Thunderbolt: December Sky (2016-06-25): 3.306
+18841: My Husband's Tutor (2017-01-03): 3.302
+18861: Dinotopia: Quest for the Ruby Sunstone (2005-05-17): 3.298
+18881: Jellyfish (2007-05-05): 3.294
+18901: The Blacksheep Affair (1998-10-31): 3.291
+18921: Crime Insiders (2007-01-17): 3.287
+18941: Canal Street (2019-01-18): 3.282
+18961: Beauty in Rope Hell (1983-08-25): 3.279
+18981: Rawhead Rex (1986-10-01): 3.276
+19001: Macbeth (1948-10-01): 3.27
+19021: The Major and the Minor (1942-09-16): 3.266
+19041: Don't Be Afraid of the Dark (1973-10-10): 3.262
+19061: Smart House (1999-06-26): 3.259
+19081: Muck (2015-03-15): 3.256
+19101: Kase-san and Morning Glories (2018-06-09): 3.252
+19121: A Night in Casablanca (1946-05-10): 3.247
+19141: My Annoying Brother (2016-11-24): 3.244
+19161: Goodbye to All That (2014-12-17): 3.242
+19181: Belmonte (2019-03-21): 3.24
+19201: The Three Faces of Eve (1957-12-23): 3.235
+19221: Blue Ice (1992-10-09): 3.233
+19241: Gertie the Dinosaur (1914-09-15): 3.227
+19261: The Song of Lunch (2010-10-08): 3.223
+19281: The War of Loong (2017-08-04): 3.221
+19301: The Horseman (2008-08-03): 3.218
+19321: Social Animals (2018-03-09): 3.214
+19341: The Most Unknown (2018-03-16): 3.211
+19361: Arrowhead (2017-06-23): 3.208
+19381: Divinations (2019-04-03): 3.204
+19401: The Aerial (2007-04-17): 3.199
+19421: The Green Inferno (1988-05-01): 3.197
+19441: Chaos Walking (2020-12-31): 3.193
+19461: Uncertainty (2009-11-15): 3.188
+19481: Krystal (2018-04-13): 3.185
+19501: My Teacher (2017-10-28): 3.181
+19521: Gaslight (1940-06-25): 3.179
+19541: xxxHOLiC The Movie: A Midsummer Night's Dream (2005-08-19): 3.175
+19561: Legend of the Dragon (1991-03-07): 3.171
+19581: Fireworks Wednesday (2006-02-08): 3.168
+19601: Aprile (1998-03-27): 3.166
+19621: Police (1916-05-27): 3.163
+19641: Dresden (2006-03-05): 3.158
+19661: Tomorrow You're Gone (2012-10-31): 3.156
+19681: The Woman in Black (1989-12-24): 3.152
+19701: Morning Glory (1933-08-18): 3.15
+19721: Njan Marykutty (2018-06-15): 3.146
+19741: Elvis (1979-02-10): 3.143
+19761: The Middle of X (2018-09-18): 3.141

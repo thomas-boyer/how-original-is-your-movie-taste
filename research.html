@@ -1,0 +1,92 @@
+<!-- This script was used to create a snapshot of the popularity and rating rankings on TMDB. It grabbed about 1/20th of the 19761 most popular movies and 1/20th of the 7101 top-rated movies in the database on April 10, 2019. The results can be found in popularity.txt and ratings.txt. Using these results, and evaluating them with my own perception and knowledge of movies, helped create my algorithm for determining the movie's unoriginality rating. However, this file has no functional relationship to the app. Note that the API appeared to return inconsistent results toward the bottom of both lists. As well, my app is skewed by the biases of TMDb's users as well as my own perception. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<ul class="list">
+	</ul>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+
+		//My API key
+		const apiKey = "a6e621753eaf6af7cffa2b99809ea117";
+
+		//Get a response from the API
+		async function getResponse(targetValue, i)
+		{
+			let tmdbResponse; 
+
+			//Request the first movie from the "i"-th page of top-rated movies
+			//(ie, the (i * 20)-th rated movie)
+			if (targetValue === 0)
+			{
+				tmdbResponse = await fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&page=${i}`);
+				return tmdbResponse;
+			}
+
+			//Request the first movie from the "i"-th page of most-popular movies
+			//(ie, the (i * 20)-th most-popular movie)
+			else if (targetValue === 1)
+			{
+				tmdbResponse = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&page=${i}`);
+				return tmdbResponse;
+			}
+			else throw new Error("targetValue is not a valid number");
+		}
+
+		//Helper class to set time between each request to avoid TMBD's rate limit.
+		function timeout(ms) {
+		    return new Promise(resolve => setTimeout(resolve, ms));
+		}
+		
+		//targetValue: 0 == rating, 1 == popularity
+		async function populateList(targetValue)
+		{
+			for (let i = 1; i <= 1000; i++)
+			{
+				//Request response from TMDB, convert response to JSON, and wait 5 seconds
+				let tmdbJson = await Promise.all([getResponse(targetValue, i).then(function(response)
+					{
+						return response.json();
+					}), timeout(300)])
+
+				//Calculate index of film based on TMDB's "page" size (20).
+				let index = ((i - 1) * 20) + 1;
+
+				//Get title and date of film from JSON.
+				let title = tmdbJson[0].results[0].title;
+				let date = tmdbJson[0].results[0].release_date;
+
+				//If searching for rating, get film's rating and append film index, title, date, and rating to HTML list.
+				if (targetValue === 0)
+				{
+					let rating = tmdbJson[0].results[0].vote_average;
+					let list = $(".list").append(`<li>${index}: ${title} (${date}): ${rating}</li>`)
+				}
+				//If searching for popularity, get film's popularity and append film index, title, date, and popularity to HTML list.
+				else
+				{
+					let popularity = tmdbJson[0].results[0].popularity;
+					let list = $(".list").append(`<li>${index}: ${title} (${date}): ${popularity}</li>`)
+				}
+			}
+		}
+
+		function init()
+		{
+			populateList(0); //Or 1 for popularity
+		};
+
+		$(document).ready(function()
+		{
+			init();
+		});
+	</script>
+</body>
+</html>
