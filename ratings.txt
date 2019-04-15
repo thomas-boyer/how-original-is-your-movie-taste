@@ -11,8 +11,8 @@ Movie rated 3.5-4.0: 1 unoriginality point
 Movie rated 0-3.4: 0 unoriginality points
 
 //Note that the API returned diminishing results under a 6.0 rating, and stopped returning results around 3.3.
-This may be part of the API's design to weed out movies with very few ratings; however, this may skew the results
-of my app.
+This may be part of the API's design to weed out movies with very few ratings; however, this may skew the results of the app.
+Note as well that TMDB returns a weighted rating that takes into account how many ratings a movie has, among other properties.
 
 //Rating category: 10 starts//
 

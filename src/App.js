@@ -12,15 +12,20 @@ class App extends Component {
 	constructor(props)
 	{
 		super(props);
+		//Bind onSelectMovie method
 		this.onSelectMovie = this.onSelectMovie.bind(this);
 		this.state =
 		{
+			//The movies the user has selected
 			selectedMovies: [],
+			//The recommendations the TMDB database returns for the above movies
 			recommendations: [],
+			//The originality score the app computes below
 			result: ""
 		}
 	}
 
+	//Send an API request for recommendations for each selected movie
 	async sendApiRequest(movie)
 	{
 		const recommendationsRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
@@ -33,15 +38,21 @@ class App extends Component {
 		return recommendationsRequest;
 	}
 
+	//Handles what happens when a movie is selected. Called in Search.js
 	async onSelectMovie(movie)
 	{
+		//Check if this movie has been selected already
 		if (!this.state.selectedMovies
 			.map((selectedMovie) => { return selectedMovie.id }).includes(movie.id))
 		{
+			//If it hasn't been selected:
+			//Request recommendations from API
 			let recommendationsRequest = await this.sendApiRequest(movie);
 
+			//Map the IDs of each recommendation to an array
 			let recommendations = recommendationsRequest.data.results.map((movie) => {return movie.id});
 
+			//Append selected movie and its recommendations to the app state
 			this.setState( () =>
 			{
 				let movieList = [...this.state.selectedMovies, movie];
@@ -51,12 +62,13 @@ class App extends Component {
 		}
 	};
 
+	//Handles movie deletion. Called by MovieList.js
 	onDeleteMovie = (movieList, recommendationsList) =>
 	{
 		this.setState({selectedMovies: movieList, recommendations: recommendationsList});
-		this.renderEnabledSearch();
 	}
 
+	//Render searchbar if the maximum capacity of MovieList has not been reached
 	renderEnabledSearch()
 	{
 		return (
@@ -64,11 +76,13 @@ class App extends Component {
 		)
 	}
 
+	//Render empty div if maximum capacity has been reached
 	renderDisabledSearch()
 	{
 		return ( <div className="search leftColumn flexItem"></div> )
 	}
 
+	//Render submit button if minimum capacity of MovieList has been reached
 	renderEnabledSubmit()
 	{
 		return (
@@ -76,6 +90,7 @@ class App extends Component {
 		)
 	}
 
+	//Render empty span if minimum capacity has not been reached
 	renderDisabledSubmit()
 	{
 		return (
@@ -83,13 +98,18 @@ class App extends Component {
 		)
 	}
 
+	//Analyzes the ratings, popularity, and recommendations of each movie in the MovieList.
+	//Called by the submit button rendered by App.js
 	analyzeMovies = () =>
 	{
+		//Map the ratings, popularity, and IDs of each movie to their own arrays
 		let ratingsArray = this.state.selectedMovies.map( (movie) => movie.vote_average);
 		let popularityArray = this.state.selectedMovies.map( (movie) => movie.popularity);
 		let idArray = this.state.selectedMovies.map( (movie) => movie.id);
 		let recommendationsArray = this.state.recommendations;
 
+		//Assigns a score to each rating. The higher the score, the more unoriginal the movie.
+		//See ratings.txt and research.html for more information on how these numbers were decided.
 		let ratingsScores = ratingsArray.map( (rating) =>
 			{
 				if (rating >= 8) return 10;
@@ -105,12 +125,15 @@ class App extends Component {
 				else return 0;
 			});
 
+		//Add up the rating scores
 		let ratingsScoresTotal = 0;
 		for (let i = 0; i < ratingsScores.length; i++)
 		{
 			ratingsScoresTotal += ratingsScores[i];
 		}
 		
+		//Assigns a score to each popularity. The higher the score, the more unoriginal the movie.
+		//See popularity.txt and research.html for more information on how these numbers were decided.
 		let popularityScores = popularityArray.map( (popularity) =>
 			{
 				if (popularity >= 21.3) return 10;
@@ -126,19 +149,30 @@ class App extends Component {
 				else return 0;
 			});
 
+		//Add up the popularity scores
 		let popularityScoresTotal = 0;
 		for (let i = 0; i < popularityScores.length; i++)
 		{
 			popularityScoresTotal += popularityScores[i];
 		}
 		
+		//Assigns a score based on every movie's recommendations.
+		//Each movie has a maximum of 20 recommendations. If a selected movie appears
+		//in another selected movie's recommendations, the score is increased by 1.
+		//A high score here roughly indicates a less varied taste.
 		let recommendationsScore = 0;
+
+		//Loop through the array of recommendations. Each object is itself an array of film recommendations.
 		for (let i = 0; i < recommendationsArray.length; i++)
 		{
+			//Loop through the entries in each array.
+			//Each object in this level is a single film recommendation.
 			for (let j = 0; j < recommendationsArray[i].length; j++)
 			{
+				//Compare each selected movie to each recommendation in the recommendations array.
 				for (let k = 0; k < idArray.length; k++)
 				{
+					//Increase the score by 1 for each match.
 					if (idArray[k] === recommendationsArray[i][j])
 					{
 						recommendationsScore++;
@@ -146,10 +180,14 @@ class App extends Component {
 				}
 			}
 		}
-
+		//Compute the final score. These numbers were determined by my judgment of
+		//what contributed more to an original taste. Note that popularity has a smaller modifier
+		//because TMDB's most popular movies tend to be very recent, regardless of how liked they are.
 		let totalScore = ((0.6 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) + 
-			(0.6 * recommendationsScore)) / idArray.length;
+			(0.45 * recommendationsScore)) / idArray.length;
 		
+		//Return a text version of the final score. The cutoffs were again determined by
+		//my judgment based on testing.
 		let returnedScore;
 		if (totalScore >= 8) returnedScore = "Very Unoriginal";
 		else if (totalScore >= 6) returnedScore = "Somewhat Unoriginal";
@@ -160,6 +198,8 @@ class App extends Component {
 		this.setState({result: returnedScore});
 	}
 
+	//When the result state is not empty, render a box stating the user's result.
+	//Clicking on the close icon in the corner will reset the result state to an empty string.
 	renderResultBox()
 	{
 		return (
