@@ -31,7 +31,7 @@ class App extends Component {
 		const recommendationsRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
 		{
 			params:
-				{ 
+				{
 					api_key: process.env.REACT_APP_API_KEY
 				}
 		});
@@ -131,7 +131,7 @@ class App extends Component {
 		{
 			ratingsScoresTotal += ratingsScores[i];
 		}
-		
+
 		//Assigns a score to each popularity. The higher the score, the more unoriginal the movie.
 		//See popularity.txt and research.html for more information on how these numbers were decided.
 		let popularityScores = popularityArray.map( (popularity) =>
@@ -155,7 +155,7 @@ class App extends Component {
 		{
 			popularityScoresTotal += popularityScores[i];
 		}
-		
+
 		//Assigns a score based on every movie's recommendations.
 		//Each movie has a maximum of 20 recommendations. If a selected movie appears
 		//in another selected movie's recommendations, the score is increased by 1.
@@ -183,9 +183,9 @@ class App extends Component {
 		//Compute the final score. These numbers were determined by my judgment of
 		//what contributed more to an original taste. Note that popularity has a smaller modifier
 		//because TMDB's most popular movies tend to be very recent, regardless of how liked they are.
-		let totalScore = ((0.6 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) + 
-			(0.45 * recommendationsScore)) / idArray.length;
-		
+		let totalScore = ((0.5 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) +
+			(0.5 * recommendationsScore)) / idArray.length;
+
 		//Return a text version of the final score. The cutoffs were again determined by
 		//my judgment based on testing.
 		let returnedScore;
@@ -222,7 +222,7 @@ class App extends Component {
 					{ this.state.selectedMovies.length < 10 ? this.renderEnabledSearch() : this.renderDisabledSearch() }
 					<div className="rightColumn">
 						{ this.state.selectedMovies.length >= 5 ? this.renderEnabledSubmit() : this.renderDisabledSubmit() }
-						<MovieList movies={this.state.selectedMovies} recommendations={this.state.recommendations} onDeleteMovie={this.onDeleteMovie}/>	
+						<MovieList movies={this.state.selectedMovies} recommendations={this.state.recommendations} onDeleteMovie={this.onDeleteMovie}/>
 					</div>
 				</main>
 				{ this.state.result ? this.renderResultBox() : <span></span> }
