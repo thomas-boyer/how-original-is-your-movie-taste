@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from './components/Header.js';
 import Search from './components/Search.js';
 import MovieList from './components/MovieList.js';
-import Close from '@material-ui/icons/Close';
 import Footer from './components/Footer.js';
+import ResultBox from './components/ResultBox.js';
 import axios from 'axios';
 import './styles/App.css';
 
@@ -43,7 +43,8 @@ class App extends Component {
 	{
 		//Check if this movie has been selected already
 		if (!this.state.selectedMovies
-			.map((selectedMovie) => { return selectedMovie.id }).includes(movie.id))
+			.map((selectedMovie) => { return selectedMovie.id })
+			.includes(movie.id))
 		{
 			//If it hasn't been selected:
 			//Request recommendations from API
@@ -66,36 +67,6 @@ class App extends Component {
 	onDeleteMovie = (movieList, recommendationsList) =>
 	{
 		this.setState({selectedMovies: movieList, recommendations: recommendationsList});
-	}
-
-	//Render searchbar if the maximum capacity of MovieList has not been reached
-	renderEnabledSearch()
-	{
-		return (
-			<Search onSelectMovie={this.onSelectMovie} className="search leftColumn flexItem"/>
-		)
-	}
-
-	//Render empty div if maximum capacity has been reached
-	renderDisabledSearch()
-	{
-		return ( <div className="search leftColumn flexItem"></div> )
-	}
-
-	//Render submit button if minimum capacity of MovieList has been reached
-	renderEnabledSubmit()
-	{
-		return (
-			<input type="submit" value="Go!" className="submit" onClick={() => this.analyzeMovies()}></input>
-		)
-	}
-
-	//Render empty span if minimum capacity has not been reached
-	renderDisabledSubmit()
-	{
-		return (
-			<span></span>
-		)
 	}
 
 	//Analyzes the ratings, popularity, and recommendations of each movie in the MovieList.
@@ -195,22 +166,7 @@ class App extends Component {
 		else if (totalScore >= 3) returnedScore = "Very Original";
 		else returnedScore = "Extremely Original";
 
-		this.setState({result: returnedScore});
-	}
-
-	//When the result state is not empty, render a box stating the user's result.
-	//Clicking on the close icon in the corner will reset the result state to an empty string.
-	renderResultBox()
-	{
-		return (
-			<div className="resultBackground">
-				<div className="resultBox">
-					<p className="resultHeader">Your movie taste is...</p>
-					<p className="result">{this.state.result}!</p>
-					<Close className="close" onClick={() => this.setState({ result: "" })}/>
-				</div>
-			</div>
-		)
+		this.setState({ result: returnedScore });
 	}
 
 	render() {
@@ -219,13 +175,31 @@ class App extends Component {
 				<Header />
 				<Footer />
 				<main>
-					{ this.state.selectedMovies.length < 10 ? this.renderEnabledSearch() : this.renderDisabledSearch() }
+					{ this.state.selectedMovies.length < 10 ?
+						   <Search onSelectMovie={ this.onSelectMovie }
+							 				 className="search leftColumn flexItem"/> :
+
+								  <div className="search leftColumn flexItem"/>  }
+
 					<div className="rightColumn">
-						{ this.state.selectedMovies.length >= 5 ? this.renderEnabledSubmit() : this.renderDisabledSubmit() }
-						<MovieList movies={this.state.selectedMovies} recommendations={this.state.recommendations} onDeleteMovie={this.onDeleteMovie}/>
+
+						{ this.state.selectedMovies.length >= 5 ?
+							  <input type="submit"
+											 value="Go!"
+											 className="submit"
+											 onClick={ () => this.analyzeMovies() }></input> : null  }
+
+						<MovieList movies={ this.state.selectedMovies }
+											 recommendations={ this.state.recommendations }
+											 onDeleteMovie={ this.onDeleteMovie }/>
+
 					</div>
 				</main>
-				{ this.state.result ? this.renderResultBox() : <span></span> }
+
+				{ this.state.result &&
+					( <ResultBox result={ this.state.result }
+									 	   clearResult={ () => this.setState({ result: "" }) }/> ) }
+
 			</div>
 		);
 	}
