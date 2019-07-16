@@ -19,23 +19,23 @@ class App extends Component {
 			//The movies the user has selected
 			selectedMovies: [],
 			//The recommendations the TMDB database returns for the above movies
-			recommendations: [],
+			recs: [],
 			//The originality score the app computes below
 			result: ""
 		}
 	}
 
-	//Send an API request for recommendations for each selected movie
+	//Send an API request for recs for each selected movie
 	async getRecs(movie)
 	{
-		const recsRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
+		const recRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
 		{
 			params:
 				{
 					api_key: process.env.REACT_APP_API_KEY
 				}
 		});
-		return recsRequest;
+		return recRequest;
 	}
 
 	//Handles what happens when a movie is selected. Called in Search.js
@@ -47,43 +47,42 @@ class App extends Component {
 			.includes(movie.id))
 		{
 			//If it hasn't been selected:
-			//Request recommendations from API
-			let recsRequest = await this.getRecs(movie);
+			//Request recs from API
+			console.log(movie);
+			const recRequest = await this.getRecs(movie);
 
 			//Map the IDs of each recommendation to an array
-			let recommendations = recsRequest.data.results.map((movie) =>
+			const recs = recRequest.data.results.map((movie) =>
 				{ return movie.id });
 
-			//Append selected movie and its recommendations to the app state
-			this.setState( () =>
-			{
-				let movieList = [...this.state.selectedMovies, movie];
-				let recommendationsList = [...this.state.recommendations, recommendations];
-				return { selectedMovies: movieList, recommendations: recommendationsList }
+			//Append selected movie and its recs to the app state
+			this.setState( () => {
+				return {
+					selectedMovies: [...this.state.selectedMovies, movie],
+					recs: this.state.recs.concat(recs)
+				}
 			});
+			console.log(this.state.recs);
 		}
 	};
 
 	//Handles movie deletion. Called by MovieList.js
-	onDeleteMovie = (movieList, recommendationsList) =>
+	onDeleteMovie = (movieList, recList) =>
 	{
-		this.setState({ selectedMovies: movieList, recommendations: recommendationsList });
+		this.setState({ selectedMovies: movieList, recs: recList });
 	}
 
-	//Analyzes the ratings, popularity, and recommendations of each movie in the MovieList.
+	//Analyzes the ratings, popularity, and recs of each movie in the MovieList.
 	//Called by the submit button rendered by App.js
 	analyzeMovies = () =>
 	{
 		//Map the ratings, popularity, and IDs of each movie to their own arrays
-		let ratingsArray = this.state.selectedMovies.map( (movie) => movie.vote_average);
-		let popularityArray = this.state.selectedMovies.map( (movie) => movie.popularity);
-		let idArray = this.state.selectedMovies.map( (movie) => movie.id);
-		let recommendationsArray = this.state.recommendations;
+		const ratingsArray = this.state.selectedMovies.map( (movie) => movie.vote_average);
+		const popularityArray = this.state.selectedMovies.map( (movie) => movie.popularity);
 
 		//Assigns a score to each rating. The higher the score, the more unoriginal the movie.
 		//See ratings.txt and research.html for more information on how these numbers were decided.
-		let ratingsScores = ratingsArray.map( (rating) =>
-			{
+		const ratingsScore = ratingsArray.map( (rating) => {
 				if (rating >= 8) return 10;
 				else if (rating >= 7.5) return 9;
 				else if (rating >= 7) return 8;
@@ -95,19 +94,11 @@ class App extends Component {
 				else if (rating >= 4) return 2;
 				else if (rating >= 3.5) return 1;
 				else return 0;
-			});
-
-		//Add up the rating scores
-		let ratingsScoresTotal = 0;
-		for (let i = 0; i < ratingsScores.length; i++)
-		{
-			ratingsScoresTotal += ratingsScores[i];
-		}
+			}).reduce( (accumulator, current) => accumulator + current);
 
 		//Assigns a score to each popularity. The higher the score, the more unoriginal the movie.
 		//See popularity.txt and research.html for more information on how these numbers were decided.
-		let popularityScores = popularityArray.map( (popularity) =>
-			{
+		const popularityScore = popularityArray.map( (popularity) => {
 				if (popularity >= 21.3) return 10;
 				else if (popularity >= 16.6) return 9;
 				else if (popularity >= 13.35) return 8;
@@ -119,51 +110,45 @@ class App extends Component {
 				else if (popularity >= 6.35) return 2;
 				else if (popularity >= 5.85) return 1;
 				else return 0;
-			});
+			}).reduce( (accumulator, current) => accumulator + current);
 
-		//Add up the popularity scores
-		let popularityScoresTotal = popularityScores.reduce((acc, cur) => acc + cur);
-
-		//Assigns a score based on every movie's recommendations.
-		//Each movie has a maximum of 20 recommendations. If a selected movie appears
-		//in another selected movie's recommendations, the score is increased by 1.
+		//Assigns a score based on every movie's recs.
+		//Each movie has a maximum of 20 recs. If a selected movie appears
+		//in another selected movie's recs, the score is increased by 1.
 		//A high score here roughly indicates a less varied taste.
-		let recommendationsScore = 0;
+		let recsScore = 0;
 
-		//Loop through the array of recommendations. Each object is itself an array of film recommendations.
-		for (let i = 0; i < recommendationsArray.length; i++)
-		{
-			//Loop through the entries in each array.
-			//Each object in this level is a single film recommendation.
-			for (let j = 0; j < recommendationsArray[i].length; j++)
-			{
-				//Compare each selected movie to each recommendation in the recommendations array.
-				for (let k = 0; k < idArray.length; k++)
-				{
-					//Increase the score by 1 for each match.
-					if (idArray[k] === recommendationsArray[i][j])
-					{
-						recommendationsScore++;
-					}
-				}
+		//An object with the IDs of each selected movie as keys.
+		//Used to make determining the recommendation score more efficient.
+		const idObj = {};
+		for (let movieID of this.state.selectedMovies.map( (movie) => movie.id)) {
+			idObj[movieID] = true;
+		}
+
+		//Loop through the array of recs.
+		for (let rec of this.state.recs) {
+			//Increase the score by 1 for each recommendation that matches a selected movie.
+			if (idObj[rec.id]) {
+				recsScore++;
 			}
 		}
+
 		//Compute the final score. These numbers were determined by my judgment of
 		//what contributed more to an original taste. Note that popularity has a smaller modifier
 		//because TMDB's most popular movies tend to be very recent, regardless of how liked they are.
-		let totalScore = ((0.5 * ratingsScoresTotal) + (0.25 * popularityScoresTotal) +
-			(0.5 * recommendationsScore)) / idArray.length;
+		let totalScore = ((0.5 * ratingsScore) + (0.25 * popularityScore) +
+			(0.5 * recsScore)) / ratingsArray.length;
 
 		//Return a text version of the final score. The cutoffs were again determined by
 		//my judgment based on testing.
-		let returnedScore;
-		if (totalScore >= 8) returnedScore = "Very Unoriginal";
-		else if (totalScore >= 6) returnedScore = "Somewhat Unoriginal";
-		else if (totalScore >= 4) returnedScore = "Somewhat Original";
-		else if (totalScore >= 3) returnedScore = "Very Original";
-		else returnedScore = "Extremely Original";
+		let textScore;
+		if (totalScore >= 8) textScore = "Very Unoriginal";
+		else if (totalScore >= 6) textScore = "Somewhat Unoriginal";
+		else if (totalScore >= 4) textScore = "Somewhat Original";
+		else if (totalScore >= 3) textScore = "Very Original";
+		else textScore = "Extremely Original";
 
-		this.setState({ result: returnedScore });
+		this.setState({ result: textScore });
 	}
 
 	render() {
@@ -187,7 +172,7 @@ class App extends Component {
 											 onClick={ () => this.analyzeMovies() }></input> : null  }
 
 						<MovieList movies={ this.state.selectedMovies }
-											 recommendations={ this.state.recommendations }
+											 recs={ this.state.recs }
 											 onDeleteMovie={ this.onDeleteMovie }/>
 
 					</div>
