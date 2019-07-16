@@ -26,16 +26,16 @@ class App extends Component {
 	}
 
 	//Send an API request for recommendations for each selected movie
-	async sendApiRequest(movie)
+	async getRecs(movie)
 	{
-		const recommendationsRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
+		const recsRequest = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/recommendations`,
 		{
 			params:
 				{
 					api_key: process.env.REACT_APP_API_KEY
 				}
 		});
-		return recommendationsRequest;
+		return recsRequest;
 	}
 
 	//Handles what happens when a movie is selected. Called in Search.js
@@ -48,17 +48,18 @@ class App extends Component {
 		{
 			//If it hasn't been selected:
 			//Request recommendations from API
-			let recommendationsRequest = await this.sendApiRequest(movie);
+			let recsRequest = await this.getRecs(movie);
 
 			//Map the IDs of each recommendation to an array
-			let recommendations = recommendationsRequest.data.results.map((movie) => {return movie.id});
+			let recommendations = recsRequest.data.results.map((movie) =>
+				{ return movie.id });
 
 			//Append selected movie and its recommendations to the app state
 			this.setState( () =>
 			{
 				let movieList = [...this.state.selectedMovies, movie];
 				let recommendationsList = [...this.state.recommendations, recommendations];
-				return {selectedMovies: movieList, recommendations: recommendationsList}
+				return { selectedMovies: movieList, recommendations: recommendationsList }
 			});
 		}
 	};
@@ -66,7 +67,7 @@ class App extends Component {
 	//Handles movie deletion. Called by MovieList.js
 	onDeleteMovie = (movieList, recommendationsList) =>
 	{
-		this.setState({selectedMovies: movieList, recommendations: recommendationsList});
+		this.setState({ selectedMovies: movieList, recommendations: recommendationsList });
 	}
 
 	//Analyzes the ratings, popularity, and recommendations of each movie in the MovieList.
@@ -121,11 +122,7 @@ class App extends Component {
 			});
 
 		//Add up the popularity scores
-		let popularityScoresTotal = 0;
-		for (let i = 0; i < popularityScores.length; i++)
-		{
-			popularityScoresTotal += popularityScores[i];
-		}
+		let popularityScoresTotal = popularityScores.reduce((acc, cur) => acc + cur);
 
 		//Assigns a score based on every movie's recommendations.
 		//Each movie has a maximum of 20 recommendations. If a selected movie appears
