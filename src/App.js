@@ -48,7 +48,6 @@ class App extends Component {
 		{
 			//If it hasn't been selected:
 			//Request recs from API
-			console.log(movie);
 			const recRequest = await this.getRecs(movie);
 
 			//Map the IDs of each recommendation to an array
@@ -62,7 +61,6 @@ class App extends Component {
 					recs: this.state.recs.concat(recs)
 				}
 			});
-			console.log(this.state.recs);
 		}
 	};
 
@@ -128,7 +126,7 @@ class App extends Component {
 		//Loop through the array of recs.
 		for (let rec of this.state.recs) {
 			//Increase the score by 1 for each recommendation that matches a selected movie.
-			if (idObj[rec.id]) {
+			if (idObj[rec]) {
 				recsScore++;
 			}
 		}
